@@ -1,0 +1,87 @@
+<!DOCTYPE html><html lang='zh-CN'><head><meta charset='utf-8'>
+<title>&lt;h1&gt;Umicore · BDD Customer Intelligence&lt;/h1&gt;</title><style>
+@page { size: A4; margin: 12mm 11mm; }
+* { box-sizing: border-box; }
+body {
+  font-family: "Microsoft YaHei", "PingFang SC", "Helvetica Neue", Arial, sans-serif;
+  color: #1c1f23; background: #ffffff; font-size: 10.5pt; line-height: 1.55;
+  margin: 0; padding: 0;
+}
+.page { page-break-after: always; }
+.page:last-child { page-break-after: auto; }
+.page-head {
+  border-bottom: 2px solid #1c1f23; padding-bottom: 3px; margin: 0 0 8px 0;
+  font-size: 9pt; letter-spacing: .12em; text-transform: uppercase; color: #5a626b;
+  display: flex; justify-content: space-between;
+}
+h1 { font-size: 17pt; margin: 2px 0 4px 0; letter-spacing: -.01em; }
+h2 { font-size: 12pt; margin: 12px 0 6px 0; padding-left: 7px; border-left: 3px solid #1c1f23; }
+h3 { font-size: 10.8pt; margin: 10px 0 4px 0; color: #33383e; }
+p { margin: 4px 0; }
+table { border-collapse: collapse; width: 100%; margin: 6px 0; font-size: 9.6pt; }
+th, td { border: 1px solid #d6dae0; padding: 4px 6px; text-align: left; vertical-align: top; }
+th { background: #f2f4f6; font-weight: 600; }
+tbody tr:nth-child(even) td { background: #fafbfc; }
+td:first-child { white-space: nowrap; }
+code { background: #f2f4f6; padding: 0 3px; border-radius: 2px;
+       font-family: Consolas, "Courier New", monospace; font-size: 9pt; }
+blockquote { margin: 6px 0; padding: 5px 9px; background: #f7f8fa;
+             border-left: 3px solid #b9c0c8; color: #3d444c; font-size: 9.6pt; }
+pre { background: #f7f8fa; border: 1px solid #e3e7eb; padding: 7px 9px;
+      font-family: Consolas, monospace; font-size: 8.8pt; white-space: pre-wrap; }
+ul, ol { margin: 4px 0 4px 18px; padding: 0; }
+li { margin: 2px 0; }
+hr.sep { border: 0; border-top: 1px solid #e3e7eb; margin: 9px 0; }
+.fold { margin: 6px 0; }
+.fold-title { font-weight: 600; font-size: 9.8pt; margin: 8px 0 3px 0; }
+.dot { display: inline-block; width: 8px; height: 8px; border-radius: 50%;
+       margin-right: 3px; vertical-align: baseline; }
+.dot.ok   { background: #1f9d55; }
+.dot.warn { background: #d99a04; }
+.dot.bad  { background: #cf2e2e; }
+.dot.unk  { background: #9aa1a9; }
+.dot.info { background: #2f6fb5; }
+.legend { margin-top: 10px; font-size: 8.6pt; color: #5a626b;
+          border-top: 1px solid #e3e7eb; padding-top: 5px; }
+.legend span.item { margin-right: 12px; }
+.pagenum { font-size: 8.6pt; color: #8a9099; }
+</style><style>.page:not(:first-of-type){display:none !important}</style></head><body>
+<section class='page'>
+<div class='page-head'><span>Customer Snapshot</span><span class='pagenum'>1 / 3</span></div>
+<h1>Umicore · BDD Customer Intelligence</h1>
+<p>2026-09-26 | 来源：公司名 + 官网 <code>https://www.umicore.com/en/</code>（无询盘原文、无往来记录）<br/>执行版本：BDD Customer Intelligence Skill V1.1<br/>本次为 <strong>V1.1 回归测试</strong>：复用 V1 已检索证据（证据编号沿用），未新增检索。</p>
+<hr class="sep"/>
+<h2>第一层 · 主判断卡</h2>
+<table><thead><tr><th>字段</th><th>判定</th></tr></thead><tbody><tr><td><strong>Company</strong></td><td>UMICORE SA/NV（比利时）· Verified</td></tr><tr><td><strong>Country</strong></td><td>比利时 · 布鲁塞尔（总部与注册地）；集团 62 个站点，含比利时、芬兰、波兰等</td></tr><tr><td><strong>What They Do</strong></td><td>比利时上市的循环材料技术集团，做贵金属与关键金属回收精炼、电池正极材料、电池回收、催化剂和特种材料；既有火法冶炼厂，也有湿法冶金厂</td></tr><tr><td><strong>Customer Type</strong></td><td>终端业主 · <strong>End-user</strong></td></tr><tr><td><strong>Industry Match</strong></td><td><span class="dot ok"></span> Target（<strong>T1 锂电池 / 电池材料 / 电池回收</strong> + <strong>T3 高 COD / 难降解工业废水</strong>性质口径，有色金属精炼回收）</td></tr><tr><td><strong>Current Wastewater Treatment / Technology</strong></td><td>比利时霍博肯（Hoboken）厂：<strong>物化处理 + 微生物生物处理（ABMet 生物反应器）</strong>，官网自述其水处理设施为"欧洲有色金属行业最佳之一"；雨水缓冲两罐合计 30,000 m³ + 2022 年末启用 2,000 m³ 缓冲池，极端降雨时受控导入水处理设施；官网按月公示厂区周边铅 / 镉 / 砷监测结果；自 2026 年初起弗拉芒环境署（VMM）以自有监测网对 Olen 厂区排放独立监测；集团水资源目标为 100% 面临水压力的工业活动制定水行动计划，100% 工业运营通过 ISO 14001</td></tr><tr><td><strong>BDD Opportunity</strong></td><td><span class="dot ok"></span> High · <strong>End-user Opportunity</strong></td></tr><tr><td><strong>Demand Status</strong></td><td><span class="dot warn"></span> Potential</td></tr><tr><td><strong>Priority Site</strong></td><td><strong>Hoboken（比利时 · 安特卫普）</strong> · 近 12 个月有环境许可条件修订申请（2025-09 向安特卫普省提交）与政府主导的半年期生物监测；官网披露现有废水处理设施与雨水缓冲系统；<strong>€4 亿湿法冶金装置处于许可申请准备阶段</strong>（目标 2030 投运）&lt;br&gt;　备选：Kokkola（芬兰，中国以外最大钴精炼厂，湿法冶金，400 人）</td></tr><tr><td><strong>Who to Contact</strong></td><td>① 集团环保 / EHS 负责人&lt;br&gt;　Name: Veerle Slenders ｜ Position: Executive Vice-President Specialty Materials（兼负责集团 Environment, Health &amp; Safety）｜ Source: 官网新闻 2026-06-18&lt;br&gt;　② 优先厂区环保负责人&lt;br&gt;　Name: Peter van Herck ｜ Position: Manager Environmental Affairs, Umicore Hoboken ｜ Source: 官网 Hoboken 环境专栏（<strong>页面未标日期，任职时效未核实</strong>）&lt;br&gt;　③ 技术总工层 → No verified contact found</td></tr><tr><td><strong>What Is Missing</strong></td><td>[Project] ① 目标厂区与项目主体确认（Hoboken / Olen / Kokkola 等）② 是否存在具体废水治理 / 新建 / 提标项目及目标工段 ③ 项目阶段与时间节点　[Technical] ④ 水质类型与特征污染物（含氯离子 / 含盐量）⑤ 处理水量与目标限值</td></tr><tr><td><strong>Next Action</strong></td><td>先向集团 EHS 负责人与 Hoboken 厂区环保负责人确认目标厂区与是否存在具体废水治理 / 新建项目；若确认存在项目，转交技术评估流程</td></tr><tr><td><strong>Sales Conclusion</strong></td><td><span class="dot ok"></span> <strong>建议开发</strong>&lt;br&gt;　主体级证据充分（62 站点确认制造业活动 + 政府许可文件与合规报告 + 完整入水污染物排放数据 + €4 亿在建装置 + 年均 €2,500 万环境投资），属目标市场，无财务警示、12 个月内无环境处罚硬信号；尚无具体项目文件级证据，故未达"重点开发"</td></tr></tbody></table>
+</section>
+<section class='page'>
+<div class='page-head'><span>Why This Customer</span><span class='pagenum'>2 / 3</span></div>
+<p><strong>BDD Opportunity 判定依据</strong></p>
+<ul><li><strong>Reason</strong>：End-user Path。① <code>Industry Fit = Target</code>（T1 + T3）✔ ② <strong>制造业活动已确认</strong>（全球 62 站点、集团 11,230 人、霍博肯年处理数十万吨物料并回收 17 种金属、芬兰科科拉湿法冶金厂 400 人）✔ ③ <strong>PWE 成立</strong>（官网披露 Hoboken 废水处理工艺与雨水缓冲系统、集团年度入水污染物排放量、按月厂区监测公示）✔ ④ <strong>主体级证据 ≥2，实为 5 项</strong>：<strong>现有处理设施</strong>（物化 + 生物处理 + 雨水缓冲）+ <strong>环境证据</strong>（环境许可条件修订与上诉、政府半年期生物监测、VMM 独立监测网、集团入水排放量完整披露）+ <strong>项目信号</strong>（€4 亿湿法冶金装置、年均 €2,500 万环境投资）+ <strong>工艺可验证</strong>（火法 &gt;1,100 ℃ 熔炉 + 湿法溶剂萃取，经公开发表可验证）+ <strong>岗位信号</strong>（Olen 招公用工程与废水处理运行班组主管、EHS Expert）</li></ul>
+<p>→ 四项判据全部成立 → <code>High</code>。</p>
+<ul><li><strong>⚠️ 回归重点说明</strong>：<strong><code>High</code> 不是"因为是电池行业"得来的。</strong> 行业属 T1 仅满足 ①；</li></ul>
+<p>② ③ ④ 均由<strong>主体级证据</strong>支撑，<code>Reason</code> 已逐条列出证据编号（E7 / E12 / E15 / E17 / E20 / E23 等）。<br/>按 <code>bdd-relevance-rules.md</code> 红线 2，仅"行业是电池"本身不构成任何升级依据。<br/>另：<strong>不再因"本次无询盘文字"封顶 <code>Medium</code></strong> —— V1.1 已删除该封顶规则。</p>
+<ul><li><strong>Evidence</strong>：E3 / E6 / E7 / E9 / E10 / E11 / E12 / E15 / E16 / E17 / E18 / E19 / E20 / E23 / E24</li><li><strong>Confidence</strong>：High</li><li><strong>Opportunity Type</strong>：<strong>End-user Opportunity</strong></li></ul>
+<p><strong>Demand Status 明细</strong></p>
+<ul><li><strong>Public Wastewater Evidence</strong>：<span class="dot warn"></span> Potential — 官网与年报披露现有处理设施、入水污染物排放量、EHS 岗位招聘；有 €4 亿在建装置与许可申请，但<strong>未查到</strong>指向具体废水治理项目的文件或招标</li><li><strong>Customer-stated Demand</strong>：<span class="dot unk"></span> Unknown · not searched — 本次无询盘文字</li><li>→ <strong>取较高者：Potential</strong></li></ul>
+<p><strong>风险</strong></p>
+<ul><li><strong>Commercial Risk</strong>：<span class="dot unk"></span> Unknown</li><li><strong>Risk Note</strong>：本次无往来内容可供观察索取行为；<strong>近 12 个月无环境处罚硬信号</strong>（母公司层面环境类处罚最近一条为 2011 年，2025 年唯一记录为美国 EBSA 福利计划违规，非环境类）。2025-09 的许可条件修订系<strong>公司主动申请</strong>，不属处罚，未计入风险与需求信号。</li><li><strong>Financial Warning</strong>：<span class="dot ok"></span> No（Euronext Brussels 上市，持续披露年报与 ESG 数据，无公开违约、评级下调或重组信号）</li></ul>
+<hr class="sep"/>
+</section>
+<section class='page'>
+<div class='page-head'><span>Key Evidence</span><span class='pagenum'>3 / 3</span></div>
+<h2>第二层 · 附录 A · Evidence 明细</h2>
+<div class="fold">
+<div class="fold-title">附录 A · Evidence 明细（34 条）</div>
+<table><thead><th>#</th><th>类型</th><th>结论</th><th>Source</th><th>Reason</th><th>Confidence</th><th>Decision Impact</th></thead><tbody><td>E1</td><td>FACT</td><td>主体 Umicore SA/NV，注册地与总部 Broekstraat 31, 1000 Brussels, Belgium</td><td>官网 Locations/Belgium；第三方企业档案</td><td>—</td><td>High</td><td>Medium</td><td>E2</td><td>FACT</td><td>上市信息：Euronext Brussels，代码 UMI，ISIN BE0974320526</td><td>Euronext Live 产品页</td><td>—</td><td>High</td><td>Medium</td><td>E3</td><td>FACT</td><td>集团员工 11,230 人（2025 年末）；2024 年末 11,581 人</td><td>Annual Report 2025；Euronext ESG 指标页</td><td>—</td><td>High</td><td><strong>High</strong></td><td>E6</td><td>FACT</td><td>比利时 4 个厂区：Hoboken（回收精炼）、Olen（钴/锗材料 + 研发中试）、Brugge（特种材料）、Brussels（总部）</td><td>官网 Locations/Belgium</td><td>—</td><td>High</td><td><strong>High</strong></td><td>E7</td><td>FACT</td><td>Hoboken 年处理数百千吨物料，回收 17 种有价值金属；火法与湿法联合流程（含 &gt;1,100 ℃ 熔炉与溶剂萃取）</td><td>官网 Hoboken 页；KU Leuven SIM² 公开案例</td><td>—</td><td>High</td><td><strong>High</strong></td><td>E8</td><td>FACT</td><td>芬兰 Kokkola：中国以外最大钴精炼厂，高度自动化湿法冶金设施，400 人，1968 年投运、2019 年并入</td><td>官网 Locations/Finland；umicore.fi</td><td>—</td><td>High</td><td>High</td><td>E9</td><td>FACT</td><td>波兰 Nysa 正极材料厂（2022 年商业生产，规划 400 人）与 Nowa Ruda 催化剂厂（约 150 人）</td><td>官网 umicore.pl</td><td>—</td><td>High</td><td>Medium</td><td>E10</td><td>FACT</td><td>业务板块（2025 起）：Catalysis / Battery Materials Solutions（Battery Cathode Materials + Battery Recycling Solutions）/ Recycling / Specialty Materials</td><td>官网 FY2025 results 新闻稿；governance</td><td>—</td><td>High</td><td>High</td><td>E11</td><td>FACT</td><td>主营产品含汽车催化剂、锂电正极材料（NMC/NCA）、贵金属精炼产品、钴与特种化学品、锗基材料、电镀化学品</td><td>官网 About；第三方企业档案</td><td>—</td><td>High</td><td>High</td><td>E12</td><td>FACT</td><td><strong>Hoboken 废水处理采用物化处理 + 微生物生物处理</strong>；官网自述其水处理设施为「欧洲有色金属行业最佳之一」</td><td>官网 Hoboken 环境专栏 Water</td><td>—</td><td>High</td><td><strong>High</strong></td><td>E13</td><td>FACT</td><td>Hoboken 雨水缓冲：两罐合计 30,000 m³，另于 2022 年末启用 2,000 m³ 缓冲池，极端降雨时受控导入水处理设施</td><td>官网 Hoboken 环境专栏 Water</td><td>—</td><td>High</td><td>High</td><td>E14</td><td>FACT</td><td>Hoboken 年均环境投资约 €2,500 万</td><td>官网新闻 2025-09-04；2026 年血铅公告</td><td>—</td><td>High</td><td>High</td><td>E15</td><td>FACT</td><td><strong>规划 €4 亿投资建设湿法冶金装置</strong>，目标 2030 年投运；2026 年处于<strong>许可申请准备阶段</strong></td><td>官网新闻 2025-09-04；2026 年血铅公告</td><td>—</td><td>High</td><td><strong>High</strong></td><td>E16</td><td>FACT</td><td>2025-09 向安特卫普省提交<strong>环境许可条件修订申请</strong>（血铅 P95 与均值口径）—— 公司主动申请，非处罚</td><td>官网新闻 2025-09-04</td><td>—</td><td>High</td><td><strong>High</strong></td><td>E17</td><td>FACT</td><td>政府每半年对厂区周边儿童做血铅生物监测（自愿参与）；2025 秋均值 2.51 µg/dl（2025 春 2.05），低于许可均值标准 3 µg/dl</td><td>官网新闻（PIH 结果公告）</td><td>—</td><td>High</td><td><strong>High</strong></td><td>E18</td><td>FACT</td><td>官网按月公示厂区周边铅 / 镉 / 砷在 PM10 与粗颗粒物中的监测结果；砷在 PM10 <strong>尚未达到</strong>欧盟指南值</td><td>官网 Hoboken 排放与沉降专栏</td><td>—</td><td>High</td><td>High</td><td>E19</td><td>FACT</td><td>自 2026 年初起，弗拉芒环境署（VMM）以自有监测网对 Olen 整厂区排放独立监测，全年结果 2027 年春公布</td><td>官网 Olen 环境页</td><td>—</td><td>High</td><td>High</td><td>E20</td><td>FACT</td><td>集团 2025 年<strong>入水污染物排放量</strong>：氯化物 8,382 t、总氮 166.6 t、TOC 214.9 t、氟化物 4.62 t、AOX 1.788 t、镍 0.827 t、砷 0.171 t、铜 0.124 t、锌 0.106 t、镉 0.0064 t、汞 0.0017 t</td><td>ESG Data book（Annual Report 2025, SUS, E2-4）</td><td>—</td><td>High</td><td><strong>High</strong></td><td>E22</td><td>FACT</td><td>环境政策水资源目标：到 2025 年为 100% 面临水压力的工业活动制定水行动计划；100% 工业运营通过 ISO 14001 认证</td><td>官网 Environmental Stewardship Policy</td><td>—</td><td>High</td><td>Medium</td><td>E23</td><td>FACT</td><td>招聘含 Olen「Leidinggevende Utilities」—— 主管公用工程与<strong>废水处理</strong>运行班组；另有 EHS Expert BU CSM、QHSSE EHS security coordinator</td><td>官网 job finder</td><td>—</td><td>High</td><td><strong>High</strong></td><td>E24</td><td>FACT</td><td>集团 EHS 负责人 Veerle Slenders，EVP Specialty Materials，同时负责集团 Environment, Health &amp; Safety</td><td>官网新闻 2026-06-18</td><td>—</td><td>High</td><td><strong>High</strong></td><td>E25</td><td>FACT</td><td>官网 Hoboken 环境专栏署名 Peter van Herck 为 Manager Environmental Affairs, Umicore Hoboken（<strong>页面未标日期，任职时效未核实</strong>）</td><td>官网 Hoboken 环境专栏 Water</td><td>—</td><td>Medium</td><td>High</td><td>E26</td><td>FACT</td><td>母公司层面处罚记录 7 条：环境类 3 条合计 $103,979（<strong>最近一条为 2011 年</strong>）；2025 年唯一记录为美国 EBSA 福利计划违规 $10,001（非环境类）</td><td>Violation Tracker（Good Jobs First）</td><td>—</td><td>Medium</td><td><strong>High</strong></td><td>E27</td><td>FACT</td><td>集团自身在售水处理行业用高纯盐类产品（钼酸钠、氯化锌、钼酸铵、苯并三唑）—— 不对应主卡字段，供销售参考</td><td>官网 Water treatment 产品页；csm.umicore.com</td><td>—</td><td>High</td><td>Low</td><td>E28</td><td>FACT</td><td>官网披露 2019 年血铅降至历史最低，2020 年春因疫情封控与异常干旱风速回升，此后增设风速仪、加盖原料堆场、扩大清扫、自愿收购近 200 户住宅建设 5 公顷封闭绿区（2026 年完成）</td><td>官网新闻；2026 年血铅公告</td><td>—</td><td>High</td><td>Medium</td><td>E32</td><td>UNKNOWN · not searched</td><td>是否存在具体废水治理 / 提标项目及目标工段</td><td>—</td><td>无客户陈述、无文件佐证</td><td>—</td><td><strong>High</strong></td><td>E33</td><td>INFERENCE</td><td>集团多厂区中，Hoboken（精炼回收）与 Kokkola（湿法冶金）是废水管理的重点工艺单元</td><td>—</td><td>两处均为湿法 / 精炼工艺，且官网各自披露设有废水处理设施与合规监测</td><td>Medium</td><td><strong>High</strong></td><td>E34</td><td>INFERENCE</td><td>集团层面环保与 EHS 决策权集中于集团 EHS 职能（EVP 层级），具体项目执行落在厂区环保职能</td><td>—</td><td>官网披露集团 EHS 由 EVP 负责，且厂区设 Environmental Affairs 岗</td><td>Medium</td><td>High</td><td>E5</td><td>FACT</td><td>全球站点数<strong>口径冲突</strong>：官网 careers 页 62 个；第三方 61 个工业站点 / 22 国；WBA 45 个生产设施</td><td>官网 careers；第三方档案</td><td>—</td><td>Medium</td><td>Medium</td><td>E21</td><td>FACT</td><td>集团 2025 年取水量 1,046,361 m³（2024 为 1,544,825）；「Total water discharges 566,035 kg」为质量单位，与分项加总不符，<strong>口径不明</strong></td><td>Euronext ESG 指标页；ESG Data book</td><td>—</td><td>Medium</td><td>Medium</td><td>E29</td><td>UNKNOWN · searched</td><td>Hoboken 废水排放许可（VLAREM）具体限值、排放去向与许可编号</td><td>—</td><td>已检索未查到</td><td>—</td><td>Medium</td><td>E30</td><td>UNKNOWN · searched</td><td>环评公示 / MER（环境影响报告）公开文件</td><td>—</td><td>已检索未查到</td><td>—</td><td>Medium</td><td>E31</td><td>UNKNOWN · searched</td><td>公开招标或采购公告（废水处理 / 水处理相关）</td><td>—</td><td>已检索未查到</td><td>—</td><td>Medium</td><td>E4</td><td>FACT</td><td>成立时间<strong>来源冲突</strong>：1904-07-07 / 1906 / 1989 / 2001 年由 Union Minière 转型为现主体</td><td>Forbes；WBA；VerityRank；FinanceCharts</td><td>—</td><td>Low</td><td>Low</td></tbody></table>
+<p><strong>类型定义</strong>：FACT 必须有 Source；INFERENCE 必须有 Reason + Confidence；UNKNOWN 必须带三态后缀且不得补全。</p>
+<p><strong>Decision Impact</strong>：只影响展示优先级，不影响真实性判断。</p>
+<p><strong>可溯源率</strong>：FACT 26 / FACT 总数 26 = <strong>100%</strong></p>
+<p><strong>集团级 vs 厂区级说明</strong>：E12 / E13 / E14 / E15 / E16 / E17 / E18 / E25 / E29 为 <strong>Hoboken 厂区级</strong>事实；E3 / E19 / E20 / E21 / E22 / E24 / E26 为 <strong>集团级</strong>事实；E7 / E8 / E9 为具体厂区定位。<strong>两者不得混写。</strong></p>
+</div>
+<hr class="sep"/>
+<h2>边界声明</h2>
+<p>本次执行未输出：工艺参数、设备选型、技术方案、达标承诺、金额（公司公开财务与投资数据除外）、报价状态、回复草稿、跟进节奏、客户案例名单。<br/><code>Technical Fit</code> 与 <code>Quotation Readiness</code> 按范围冻结规定<strong>不输出</strong>。<br/><strong>未输出"建议小试"，未固定"寄 5~10 L 水样"</strong>（V1.1 已删除该越界规则）。</p>
+<div class='legend'><span class='item'><span class='dot ok'></span>🟢 已确认 / 正面 / 高相关</span><span class='item'><span class='dot warn'></span>🟡 待验证 / 潜力</span><span class='item'><span class='dot bad'></span>🔴 风险 / 负面 / 冲突</span><span class='item'><span class='dot unk'></span>⚪ 未知</span><span class='item'><span class='dot info'></span>🔵 中性事实</span></div>
+</section>
+</body></html>

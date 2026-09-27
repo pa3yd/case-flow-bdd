@@ -1,0 +1,26 @@
+# ============================================================
+#  二进制文件：禁止 Git 做换行符转换
+#  重要 —— 不加这段，PDF / PNG 在跨机器 clone 后可能被损坏
+# ============================================================
+*.pdf   binary
+*.png   binary
+*.jpg   binary
+*.jpeg  binary
+*.gif   binary
+*.ico   binary
+*.zip   binary
+*.docx  binary
+*.xlsx  binary
+*.pptx  binary
+
+# ============================================================
+#  关于文本文件（.md / .py / .ps1 / .json）—— 有意不设置 eol 强制
+#
+#  原因：本仓库的使用机器全部是 Windows。保持文件的原始字节
+#  （CRLF 就是 CRLF），可以让「本机 skill 目录」与「仓库内 skill
+#  副本」的 MD5 完全一致。
+#  tools\restore-skill.ps1 与 tools\sync-skill.ps1 的完整性校验
+#  依赖这一致性；一旦 Git 悄悄改写换行符，校验会全部误报 MODIFIED。
+#
+#  本地仓库已设置 core.autocrlf=false，Git 不会擅自改写换行符。
+# ============================================================

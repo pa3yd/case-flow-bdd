@@ -1,0 +1,59 @@
+# ============================================================
+#  BDD Customer Intelligence — Git 排除规则
+#  原则：只排除「本机系统垃圾」与「可再生的缓存」，
+#        不排除任何业务内容（本仓库为全量私有备份）。
+# ============================================================
+
+# ---- Python 缓存 ----
+__pycache__/
+*.py[cod]
+*.pyo
+*$py.class
+.pytest_cache/
+.mypy_cache/
+.venv/
+venv/
+env/
+
+# ---- 渲染 / 导出临时产物 ----
+*.tmp
+*.temp
+_tmp/
+.tmp/
+_render_tmp/
+render_tmp/
+*.log
+
+# ---- 操作系统垃圾 ----
+.DS_Store
+._*
+Thumbs.db
+ehthumbs.db
+desktop.ini
+$RECYCLE.BIN/
+*.lnk
+
+# ---- 编辑器 / IDE ----
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# ---- Office 临时锁文件 ----
+~$*
+
+# ---- WorkBuddy 运行时数据（仅保留 memory 项目记忆）----
+.workbuddy/*
+!.workbuddy/memory/
+
+# ---- 安全兜底：任何密钥 / 凭据类文件一律不入库 ----
+config.json
+secrets.json
+credentials.json
+.env
+.env.*
+*.key
+*.pem
+*.p12
+*.pfx
